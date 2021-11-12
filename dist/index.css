@@ -39,3 +39,27 @@ main > h1 {
 form {
   text-align: center;
 }
+
+.pagination {
+  display: flex;
+
+  /* Border */
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.pagination-item {
+  /* Center the content */
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Right border */
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.active-pagination-item {
+  /* No right border */
+  background-color: #0094c8;
+  color: #eee;
+}
